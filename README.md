@@ -9,4 +9,4 @@
 
 **示意图**
  
- ![image](https://github.com/Kevinsu917/Dynamic/pic.png)
+ ![image](https://github.com/Kevinsu917/Dynamic/blob/master/pic.png)
