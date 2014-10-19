@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="com.example.dynamicdemo.MainActivity" >
+
+    <com.handmark.pulltorefresh.library.PullToRefreshScrollBarListView
+        xmlns:library="http://schemas.android.com/apk/res/net.iaround"
+        android:id="@+id/prvDynamicList"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:fadingEdge="none"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:scrollbars="none" />
+    
+    <EditText 
+        android:id="@+id/etInput"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="请输入"
+        android:textColorHint="@color/c_cccccc"/>
+
+</LinearLayout>

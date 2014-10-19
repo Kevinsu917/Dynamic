@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:background="@android:color/white" >
+    
+    
+    <LinearLayout 
+        android:id="@+id/llBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal">
+        
+        <TextView 
+            android:id="@+id/tvDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/delete_icon_normal"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/c_cccccc"
+            android:text="删除"/>
+        
+        <TextView 
+            android:id="@+id/tvGreet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/greet_normal"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/c_cccccc"
+            android:text="赞"/>
+        
+        <TextView 
+            android:id="@+id/tvComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/comment_icon_normal"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/c_cccccc"
+            android:text="评论"/>
+        
+    </LinearLayout>
+    
+
+    <TextView 
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/llBar"
+        android:textColor="@color/c_cccccc"
+        android:text="10天前"/>
+    
+</RelativeLayout>

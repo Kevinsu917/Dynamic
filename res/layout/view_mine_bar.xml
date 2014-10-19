@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="86dp"
+    android:background="@drawable/my_bar_background"
+    android:orientation="vertical" >
+    
+	<ImageView 
+	    android:id="@+id/ivMyAvater"
+	    android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/avater_boy_1"/>
+	
+	<TextView 
+	    android:id="@+id/tvMyName"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="@android:color/black"
+	    android:paddingTop="5dp"
+	    android:textSize="16dp"/>
+</LinearLayout>

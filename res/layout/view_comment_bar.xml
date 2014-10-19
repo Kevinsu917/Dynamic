@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/comment_background"
+    android:paddingBottom="13dp"
+    android:orientation="vertical" >
+
+    <!-- 点赞头像 -->
+
+    <LinearLayout
+        android:id="@+id/llGreetPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:paddingTop="6dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvGreetTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/greet_pressed"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:text="26个赞"
+            android:textColor="@color/c_333333"
+            android:textSize="12dp" />
+
+        <View
+            android:id="@+id/vSplit"
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="7dp"
+            android:background="@color/c_cccccc" />
+        
+    </LinearLayout>
+
+    <!-- 评论 -->
+
+    <LinearLayout
+        android:id="@+id/llComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:paddingTop="6dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>
