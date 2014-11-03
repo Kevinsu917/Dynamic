@@ -124,13 +124,15 @@ public class MainActivity extends Activity {
 			
 			prvDynamicList.getRefreshableView().setSelectionFromTop(position, offset);
 			
+			edInput.requestFocus();
+			MultiUtils.showInputMethod(MainActivity.this, edInput);
+			
 			new Handler().postDelayed(new Runnable() {
 				
 				@Override
 				public void run() {
 					// TODO Auto-generated method stub
-					edInput.requestFocus();
-					MultiUtils.showInputMethod(MainActivity.this, edInput);
+					
 				}
 			}, 200);
 		}
