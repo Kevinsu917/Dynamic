@@ -10,3 +10,6 @@
 **示意图**
  
  ![image](https://github.com/Kevinsu917/Dynamic/blob/master/pic.png)
+
+
+**注意**: 之前一直少了一个下拉刷新的库,导致很多朋友都没法运行,实在不好意思.现在把该库以zip包的模式放在根目录下.
